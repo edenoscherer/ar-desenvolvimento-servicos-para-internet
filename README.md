@@ -27,3 +27,7 @@ Após importar o backup atualizar as informações do acesso ao banco no arquivo
 **Rodar o servidor**
 
 Para rodar o servidor é recomendado usar servidor interno do php usando o comando `php -S localhost:8080` no terminal dentro da pasta do projeto.
+
+**Acessar Documentação (swagger)**
+
+Após iniciar o servidor acessar o link http://localhost:8080/swagger
