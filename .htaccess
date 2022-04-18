@@ -1,0 +1,13 @@
+# Bloqueia a listagem de arquivos no diretório
+Options -Indexes
+
+<Files .env>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Envia as requisições para o arquivo index.php, ignorando os arquivos e as pastas encontradas.
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]

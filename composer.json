@@ -1,0 +1,21 @@
+{
+    "name": "edeno/ar-desenvolvimento",
+    "description": "AR -  Desenvolvimento de Servi\u0000os para Internet",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Edeno Luiz Scherer",
+            "email": "edenoscherer@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.10",
+        "zircote/swagger-php": "^4.3",
+        "slim/psr7": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
